@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FairFare – India’s first AI-powered travel planner. No brokers. No commissions. Just transparent pricing for smart travelers." />
+  <title>FairFare | AI-Powered Travel Planner</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background-color: #1e40af;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(to right, #dbeafe, #eff6ff);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .feature {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #1e40af;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .btn {
+      background: #1e40af;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 1.5rem;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>FairFare</h2>
+    <p>AI-Powered Trip Planning. No Brokers. No Commissions.</p>
+  </header>
+
+  <section class="hero">
+    <h1>Plan Smarter. Travel Cheaper.</h1>
+    <p>FairFare uses advanced AI to help you plan your perfect trip—flights, hotels, cabs, and itineraries—with no middlemen and transparent pricing.</p>
+    <a class="btn" href="#features">Explore Features</a>
+  </section>
+
+  <section class="section" id="features">
+    <h2>Why Choose FairFare?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>AI Trip Planner</h3>
+        <p>Generate day-by-day travel itineraries instantly based on your location, dates, and preferences.</p>
+      </div>
+      <div class="feature">
+        <h3>Real-Time Costing</h3>
+        <p>See live cost estimates for flights, hotels, cabs, and local transport—no hidden charges.</p>
+      </div>
+      <div class="feature">
+        <h3>No Agents. No Commissions.</h3>
+        <p>Direct links to book services yourself. We don’t take commissions. You save more.</p>
+      </div>
+      <div class="feature">
+        <h3>Coming Soon</h3>
+        <p>FairFare will soon help you compare prices on insurance, electronics, services, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Want to Try FairFare?</h2>
+    <p>We’re currently building the AI engine. Sign up to be notified when we launch:</p>
+    <form>
+      <input type="email" placeholder="Your email" style="padding: 0.75rem; width: 60%; max-width: 300px;" required />
+      <button class="btn" type="submit">Notify Me</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FairFare. Built with purpose, powered by AI.</p>
+  </footer>
+</body>
+</html>
